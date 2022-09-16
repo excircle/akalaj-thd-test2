@@ -1,4 +1,5 @@
 resource "google_compute_network" "vpc_network" {
-  name                    = "akalaj-thd-test"
+  project                 = "akalaj-thd-test"
+  name                    = "thd-proto-vpc"
   auto_create_subnetworks = false
 }
